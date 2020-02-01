@@ -1,7 +1,7 @@
 from flask import Blueprint, redirect, render_template, request
 from runnerly.db.schema import db, User
 # from runnerly.auth import admin_required
-# from runnerly.forms import UserForm
+from runnerly.forms import UserForm
 
 
 users = Blueprint('users', __name__)

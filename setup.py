@@ -5,7 +5,10 @@ setup(name="runnerly",
       packages=find_packages(),
       install_requires=[
           'flask',
-          'flask_sqlalchemy'
+          'flask_sqlalchemy',
+          'flask_wtf',
+          'wtforms',
+          'pytest',
       ],
       include_package_data=True,
       zip_safe=False)
